@@ -1,0 +1,20 @@
+data:
+  sr: 16000
+  fps: 25 # this set can not be changed 
+
+  same_audio_sync_visual:
+    train: ../data/same/pretrain.scp
+    dev: ../data/same/trainval.scp
+    test: ../data/same/test.scp 
+    V_shuffle: False
+  diff_audio_shuffle_visual: 
+    train: ../data/diff/pretrain.scp
+    dev: ../data/diff/trainval.scp
+    test: ../data/diff/test.scp 
+    V_shuffle: True
+  diff_audio_sync_visual:
+    train: ../data/diff/pretrain.scp
+    dev: ../data/diff/trainval.scp
+    test: ../data/diff/test.scp 
+    V_shuffle: False 
+
